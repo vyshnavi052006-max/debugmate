@@ -224,7 +224,7 @@ else:
     if user_input:
         # Check if input is related to code debugging
         if not is_code_related(user_input):
-            response = "I'm DebugMate, a code debugging specialist. I can only help with code-related questions like:\n\n✓ Debugging code errors\n✓ Explaining bugs\n✓ Suggesting fixes\n✓ Analyzing code issues\n\nPlease ask me a code-related question!"
+            response = "I'm DebugMate, a code debugging specialist. I can only help with code-related questions like:\n\n✓ Debugging code errors\n✓ Explaining bugs\n✓ Suggesting fixes\n✓ Learning best practices"
         else:
             # Add user message to chat
             st.session_state.chat_history.append({
